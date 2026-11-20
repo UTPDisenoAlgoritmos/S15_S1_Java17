@@ -1,0 +1,125 @@
+
+E1 - Tickets: Shell Sort
+CSV: datos\01_tickets_shell.csv
+Registros=20 entrada=[42, 18, 65, 27, 55, 34, 73, 39, 12, 90, 7, 61, 49, 25, 84, 16, 70, 31, 58, 4]
+Shell: [4, 7, 12, 16, 18, 25, 27, 31, 34, 39, 42, 49, 55, 58, 61, 65, 70, 73, 84, 90]
+  comparaciones=88 escrituras=68 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.603800
+
+E2 - Pedidos: QuickSort Lomuto
+CSV: datos\02_pedidos_quick.csv
+Registros=24 entrada=[44, 12, 44, 6, 80, 12, 31, 31, 6, 57, 80, 25, 44, 9, 12, 57, 9, 31, 80, 6, 100, 1, 50, 25]
+Shell: [1, 6, 6, 6, 9, 9, 12, 12, 12, 25, 25, 31, 31, 31, 44, 44, 44, 50, 57, 57, 80, 80, 80, 100]
+  comparaciones=106 escrituras=70 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.187800
+Quick: [1, 6, 6, 6, 9, 9, 12, 12, 12, 25, 25, 31, 31, 31, 44, 44, 44, 50, 57, 57, 80, 80, 80, 100]
+  comparaciones=89 escrituras=70 intercambios=35 llamadas=31 nodos=31 podas=0 soluciones=0 profundidad=7 multiplicaciones=0 tiempo_ms=7.786900
+
+E3 - Repuestos: busqueda lineal
+CSV: datos\03_repuestos_lineal.csv
+Registros=18 entrada=[711, 704, 725, 701, 721, 740, 712, 709, 733, 716, 729, 707, 735, 720, 714, 703, 736, 728]
+Lineal_original_objetivo_736: 16
+  comparaciones=17 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.469000
+Lineal_original_objetivo_799: -1
+  comparaciones=18 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.002500
+
+E4 - Catalogo: busqueda binaria vs lineal
+CSV: datos\04_catalogo_binaria.csv
+Registros=11 entrada=[101, 104, 108, 112, 117, 121, 125, 130, 140, 150, 165]
+Lineal_objetivo_125: 6
+  comparaciones=7 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.001800
+Binaria_objetivo_125: 6
+  comparaciones=3 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=4.238000
+Lineal_objetivo_126: -1
+  comparaciones=11 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.002300
+Binaria_objetivo_126: -1
+  comparaciones=4 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.022500
+
+E5 - Tienda: ordenar y buscar
+CSV: datos\05_tienda_integrada.csv
+Registros=16 entrada=[105, 112, 108, 121, 101, 133, 119, 125, 104, 150, 113, 140, 127, 115, 145, 109]
+Shell: [101, 104, 105, 108, 109, 112, 113, 115, 119, 121, 125, 127, 133, 140, 145, 150]
+  comparaciones=68 escrituras=44 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.241300
+Quick: [101, 104, 105, 108, 109, 112, 113, 115, 119, 121, 125, 127, 133, 140, 145, 150]
+  comparaciones=50 escrituras=30 intercambios=15 llamadas=21 nodos=21 podas=0 soluciones=0 profundidad=7 multiplicaciones=0 tiempo_ms=0.253300
+Lineal_original_objetivo_125: 7
+  comparaciones=8 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.002400
+Binaria_ordenado_objetivo_125: 10
+  comparaciones=4 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.020700
+Lineal_original_objetivo_145: 14
+  comparaciones=15 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.002200
+Binaria_ordenado_objetivo_145: 14
+  comparaciones=4 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.020100
+Lineal_original_objetivo_999: -1
+  comparaciones=16 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.002100
+Binaria_ordenado_objetivo_999: -1
+  comparaciones=5 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.025800
+
+E6 - Factorial: recursion, pila e iteracion
+CSV: datos\06_factoriales.csv
+Recursivo_n_0: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=1 nodos=1 podas=0 soluciones=0 profundidad=1 multiplicaciones=0 tiempo_ms=0.826400
+Iterativo_n_0: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.005500
+Pila_explicita_n_0: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=0 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.038300
+Recursivo_n_1: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=2 nodos=2 podas=0 soluciones=0 profundidad=2 multiplicaciones=1 tiempo_ms=0.018600
+Iterativo_n_1: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=1 podas=0 soluciones=0 profundidad=0 multiplicaciones=1 tiempo_ms=0.136600
+Pila_explicita_n_1: 1
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=1 podas=0 soluciones=0 profundidad=1 multiplicaciones=1 tiempo_ms=0.030000
+Recursivo_n_4: 24
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=5 nodos=5 podas=0 soluciones=0 profundidad=5 multiplicaciones=4 tiempo_ms=0.003700
+Iterativo_n_4: 24
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=4 podas=0 soluciones=0 profundidad=0 multiplicaciones=4 tiempo_ms=0.003700
+Pila_explicita_n_4: 24
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=4 podas=0 soluciones=0 profundidad=4 multiplicaciones=4 tiempo_ms=0.012000
+Recursivo_n_5: 120
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=6 nodos=6 podas=0 soluciones=0 profundidad=6 multiplicaciones=5 tiempo_ms=0.003900
+Iterativo_n_5: 120
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=5 podas=0 soluciones=0 profundidad=0 multiplicaciones=5 tiempo_ms=0.003100
+Pila_explicita_n_5: 120
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=5 podas=0 soluciones=0 profundidad=5 multiplicaciones=5 tiempo_ms=0.013100
+Recursivo_n_10: 3628800
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=11 nodos=11 podas=0 soluciones=0 profundidad=11 multiplicaciones=10 tiempo_ms=0.009700
+Iterativo_n_10: 3628800
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=10 podas=0 soluciones=0 profundidad=0 multiplicaciones=10 tiempo_ms=0.005500
+Pila_explicita_n_10: 3628800
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=10 podas=0 soluciones=0 profundidad=10 multiplicaciones=10 tiempo_ms=0.019100
+Recursivo_n_20: 2432902008176640000
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=21 nodos=21 podas=0 soluciones=0 profundidad=21 multiplicaciones=20 tiempo_ms=0.008800
+Iterativo_n_20: 2432902008176640000
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=20 podas=0 soluciones=0 profundidad=0 multiplicaciones=20 tiempo_ms=0.006900
+Pila_explicita_n_20: 2432902008176640000
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=20 podas=0 soluciones=0 profundidad=20 multiplicaciones=20 tiempo_ms=0.042600
+
+E7 - Fases: recursion indirecta
+CSV: datos\07_fases_indirecta.csv
+Indirecta: 45
+  comparaciones=46 escrituras=0 intercambios=0 llamadas=46 nodos=46 podas=0 soluciones=0 profundidad=46 multiplicaciones=0 tiempo_ms=0.039700
+Iterativa: 45
+  comparaciones=46 escrituras=0 intercambios=0 llamadas=0 nodos=46 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.015900
+Indice=45 secuencia=46 linea_fisica_csv=47
+
+E8 - Sensores: maximo divide y venceras vs iteracion
+CSV: datos\08_sensores.csv
+Maximo_recursivo: 37
+  comparaciones=63 escrituras=0 intercambios=0 llamadas=127 nodos=127 podas=0 soluciones=0 profundidad=7 multiplicaciones=0 tiempo_ms=0.043500
+Maximo_iterativo: 37
+  comparaciones=63 escrituras=0 intercambios=0 llamadas=0 nodos=64 podas=0 soluciones=0 profundidad=0 multiplicaciones=0 tiempo_ms=0.021900
+Registro=SEN-038 temperatura_C=46.7
+
+E9 - Bloques: backtracking de suma exacta
+CSV: datos\09_bloques_backtracking.csv
+Meta=8 uso 0/1 por ID
+Subconjuntos: [[B1, B4], [B2, B3]]
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=27 nodos=27 podas=5 soluciones=2 profundidad=5 multiplicaciones=0 tiempo_ms=0.744200
+
+E10 - Pedidos: seleccion optima 0/1
+CSV: datos\10_pedidos_optimos.csv
+Leidos=20 elegibles=16 excluidos=4 filtro=ciudad=LIMA AND prioridad=ALTA AND estado=LISTO capacidad_kg=50
+Mochila_con_poda: Selection[benefit=1901, weight=50, ids=[P02, P04, P06, P08, P09, P13, P14]]
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=7608 nodos=7608 podas=5248 soluciones=251 profundidad=17 multiplicaciones=0 tiempo_ms=2.503000
+Enumeracion_sin_poda: Selection[benefit=1901, weight=50, ids=[P02, P04, P06, P08, P09, P13, P14]]
+  comparaciones=0 escrituras=0 intercambios=0 llamadas=0 nodos=65536 podas=0 soluciones=4823 profundidad=0 multiplicaciones=0 tiempo_ms=58.703700
+Optimo exacto del conjunto elegible. Empates pueden devolver IDs diferentes.
+Reporte: resultados\referencia.csv
